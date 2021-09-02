@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <include layout="@layout/toolbar_back_profile" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/sans_bold"
+                android:paddingLeft="3dp"
+                android:paddingTop="10dp"
+                android:paddingRight="3dp"
+                android:text="@string/we_want_to_help"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="10dp"
+                android:paddingRight="3dp"
+                android:text="@string/reason_for_dispute"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/edt_Reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:hint="@string/enter_reason_for_dispute"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="10dp"
+                android:paddingRight="3dp"
+                android:text="@string/post_associated"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:padding="10dp">
+
+                <Spinner
+                    android:id="@+id/spinner_Post_associated"
+                    style="@style/Widget.AppCompat.Spinner.DropDown"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:dropDownWidth="match_parent" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="10dp"
+                android:paddingRight="3dp"
+                android:text="@string/describe_what_happened"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintEnabled="false">
+                <!--
+                                app:counterEnabled="true"
+                                app:counterMaxLength="30"
+                                app:counterTextAppearance="@style/TextLimitStyle"
+                -->
+
+                <EditText
+                    android:id="@+id/edt_Describe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:height="180dp"
+                    android:background="@drawable/border"
+                    android:gravity="top"
+                    android:hint="@string/please_explain_the_issue"
+                    android:inputType="textMultiLine"
+                    android:textSize="14sp" />
+
+                <!--
+                                android:maxLength="30"
+                -->
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="@string/add_attachment"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/Lin_img_Attachment"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/bg_opacity"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:id="@+id/img_Attachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/addattachment_plusoicon" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/titleImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toEndOf="@+id/Lin_img_Attachment"
+                    android:layout_toRightOf="@+id/Lin_img_Attachment"
+                    android:padding="10dp"
+                    android:text="Please add any documents or photos to support your claim" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/checkboxtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ediPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18.7dp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:gravity="center"
+                android:onClick="Dispute_Submit"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginTop="8.0dip"
+    android:layout_marginRight="10.0dip"
+    android:layout_marginBottom="2.0dip"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="8dp"
+    app:cardPreventCornerOverlap="true"
+    tools:ignore="MissingDefaultResource">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="3dp"
+                    android:text="@string/why_do_you_need_a_stripe_account_to_apply_for_a_job_on_azzida"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="3dp"
+                    android:text="@string/in_order_to_receive_payments_for_work_completed_on_azzida_you_will_first_need_to_set_up_a_stripe_account_and_link_it_to_your_bank_account_for_funds_transfer_stripe_is_a_leading_online_payments_services_provider_that_provides_payments_solutions_for_companies_like_amazon_google_lyft_and_uber_once_you_have_created_your_account_you_can_use_your_stripe_account_number_to_receive_payments_for_any_jobs_your_perform_on_the_azzida_platform_for_more_information_see_the_payments_and_fees_section_under_azzida_s_terms_of_use"
+                    android:textColor="@android:color/black"
+                    android:textSize="19sp" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:padding="10dp"
+                android:text="@string/close" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:padding="10dp"
+                android:text="@string/add" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+

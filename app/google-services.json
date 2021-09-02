@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "329922309865",
+    "project_id": "azzida-6a361",
+    "storage_bucket": "azzida-6a361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329922309865:android:46fff4c3e7da7b17148a78",
+        "android_client_info": {
+          "package_name": "com.azzida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329922309865-r3uoki743pt8fhm52kgmad9a3m4q9kip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5fNSr1YMbpsa-H70dBhB6g9ORFqjAnww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329922309865-r3uoki743pt8fhm52kgmad9a3m4q9kip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

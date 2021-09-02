@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorButton">
+
+
+    <ImageView
+        android:id="@+id/img_job_back"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/close_back"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/white"
+        android:text="Your Job was Just Completed"
+        android:layout_marginStart="30dp" />
+
+</androidx.appcompat.widget.Toolbar>

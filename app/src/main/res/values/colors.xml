@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e77bb</color>
+    <color name="colorPrimaryDark">#025CC8</color>
+    <color name="colorAccent">#1174EA</color>
+    <color name="gray_very_light">#dddddd</color>
+
+    <color name="colorButton">#3ebb9b</color>
+
+    <color name="borderGreen">#3ebb9b</color>
+    <color name="Green">#3ebb9b</color>
+
+    <color name="duskYellow">#ffc922</color>
+
+    <color name="nonactive_dot">#ffc922</color>
+
+    <color name="statusYellow">#f0ad4e</color>
+    <color name="statusPink">#cc0066</color>
+    <color name="statusGreen">#5cb85c</color>
+
+    <color name="active_dot">#ff0000</color>
+
+    <color name="colorGray">#D0D0D0</color>
+
+    <color name="gray_light">#f3f3f3</color>
+
+    <color name="Red">#ff0000</color>
+    <color name="borderRed">#F10202</color>
+
+    <color name="Blue">#3e77bb</color>
+    <color name="borderBlue">#3e77bb</color>
+
+    <color name="btn_cancel_color">#999999</color>
+    <color name="btn_confirm_color">#303F9F</color>
+
+    <color name="Gray">#b2b2b2</color>
+    <color name="Gray_Dark">#737373</color>
+
+
+    <color name="LoginText">#3e77bb</color>
+
+    <color name="GreenLine">#2d977c</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#808285</color>
+    <color name="black">#000000</color>
+    <color name="gray_text">#757575</color>
+    <color name="light_gray">#ffd9d9d9</color>
+
+
+    <!-- added for version 3.9 -->
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#d9d9d9</color>
+    <color name="grey_bg">#F7F7F7</color>
+    <color name="grey_dark">#262626</color>
+
+
+    <color name="edit_bg">#EDEDED</color>
+    <color name="btn_color">#7122db</color>
+
+
+    <color name="windowBackground">#F3F3F3</color>
+
+    <color name="card_text_color">#FFFFFF</color>
+    <color name="card_label_color">#D4D9DC</color>
+    <color name="card_cvv_color">#383838</color>
+    <color name="CTA_text">#FFFFFF</color>
+    <color name="CTA_bg">#32C25E</color>
+</resources>

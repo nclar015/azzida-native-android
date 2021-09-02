@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llaa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/no_profile" />
+
+        <LinearLayout
+            android:id="@+id/v1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/chat_bubble_receiver"
+            android:backgroundTint="@color/colorButton"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/margin_10"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="15dp"
+            android:layout_marginRight="45dp">
+
+
+            <TextView
+                android:id="@+id/textContentFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3b3b3b"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:maxLines="4"
+                android:textColor="#3b3b3b"
+                android:textSize="12sp"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

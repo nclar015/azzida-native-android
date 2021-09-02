@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/navigation_menu"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu" />
+
+    <!--    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/azzida_logo_header" />-->
+
+
+    <LinearLayout
+        android:id="@+id/locPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/header_location_pin"
+            android:layout_marginEnd="15sp" />
+
+
+        <TextView
+            android:id="@+id/picLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="15sp"
+        android:src="@drawable/header_filter"
+        android:layout_marginEnd="15sp" />
+
+</androidx.appcompat.widget.Toolbar>
